@@ -68,6 +68,25 @@ const TukarTambah = () => {
   return (
     <div className="pt-24 pb-20 min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Anti-Scam Instruction Card */}
+        <div className="mb-8">
+          <div className="flex items-start gap-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-2xl p-5 shadow-sm">
+            <div className="pt-1">
+              <svg className="w-7 h-7 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9zm-9-4h.01" /></svg>
+            </div>
+            <div>
+              <h3 className="font-bold text-yellow-800 text-lg mb-1">Tips Agar Tidak Tertipu</h3>
+              <ul className="list-disc pl-5 text-yellow-900 text-sm space-y-1">
+                <li>Pastikan hanya melakukan pembayaran ke rekening resmi <b>Liphone Store</b>.</li>
+                <li>Jangan percaya jika ada yang mengaku admin meminta transfer ke rekening pribadi.</li>
+                <li>Selalu konfirmasi nomor rekening dan proses hanya melalui kontak resmi di website ini.</li>
+                <li>Jangan berikan kode OTP atau data pribadi ke siapapun.</li>
+                <li>Jika ragu, hubungi admin resmi melalui WhatsApp yang tertera di website.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-10">
