@@ -69,21 +69,27 @@ const TukarTambah = () => {
     <div className="pt-24 pb-20 min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Anti-Scam Instruction Card */}
-        <div className="mb-8">
-          <div className="flex items-start gap-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-2xl p-5 shadow-sm">
-            <div className="pt-1">
-              <svg className="w-7 h-7 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9zm-9-4h.01" /></svg>
-            </div>
-            <div>
-              <h3 className="font-bold text-yellow-800 text-lg mb-1">Tips Agar Tidak Tertipu</h3>
-              <ul className="list-disc pl-5 text-yellow-900 text-sm space-y-1">
-                <li>Pastikan hanya melakukan pembayaran ke rekening resmi <b>Liphone Store</b>.</li>
-                <li>Jangan percaya jika ada yang mengaku admin meminta transfer ke rekening pribadi.</li>
-                <li>Selalu konfirmasi nomor rekening dan proses hanya melalui kontak resmi di website ini.</li>
-                <li>Jangan berikan kode OTP atau data pribadi ke siapapun.</li>
-                <li>Jika ragu, hubungi admin resmi melalui WhatsApp yang tertera di website</li>
-              </ul>
+        {/* Modern Anti-Scam Instruction Card */}
+        <div className="mb-10">
+          <div className="relative overflow-hidden rounded-3xl shadow-xl border border-yellow-200 bg-gradient-to-br from-yellow-50 via-white to-yellow-100 p-0.5">
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br from-yellow-200/60 to-yellow-400/30 rounded-full blur-2xl z-0"></div>
+            <div className="relative z-10 flex flex-col md:flex-row items-center gap-6 p-7 md:p-9">
+              <div className="flex-shrink-0 flex items-center justify-center w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-yellow-300 via-yellow-200 to-yellow-100 rounded-2xl shadow-lg border-4 border-yellow-100">
+                <svg className="w-12 h-12 md:w-14 md:h-14 text-yellow-500" fill="none" viewBox="0 0 48 48" stroke="currentColor">
+                  <circle cx="24" cy="24" r="22" strokeWidth="3" className="text-yellow-200" fill="currentColor" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M24 16v8m0 8h.01" className="text-yellow-700" stroke="currentColor" />
+                </svg>
+              </div>
+              <div className="flex-1">
+                <h3 className="font-extrabold text-xl md:text-2xl text-yellow-800 mb-2 tracking-tight">Tips Agar Tidak Tertipu</h3>
+                <ul className="list-none pl-0 text-yellow-900 text-base md:text-lg space-y-1">
+                  <li className="flex items-start gap-2"><span className="mt-1"><svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" /></svg></span>Pastikan hanya melakukan pembayaran ke rekening resmi <b>Liphone Store</b>.</li>
+                  <li className="flex items-start gap-2"><span className="mt-1"><svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" /></svg></span>Jangan percaya jika ada yang mengaku admin meminta transfer ke rekening pribadi.</li>
+                  <li className="flex items-start gap-2"><span className="mt-1"><svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" /></svg></span>Selalu konfirmasi nomor rekening dan proses hanya melalui kontak resmi di website ini.</li>
+                  <li className="flex items-start gap-2"><span className="mt-1"><svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" /></svg></span>Jangan berikan kode OTP atau data pribadi ke siapapun.</li>
+                  <li className="flex items-start gap-2"><span className="mt-1"><svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" /></svg></span>Jika ragu, hubungi admin resmi melalui WhatsApp yang tertera di website.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
