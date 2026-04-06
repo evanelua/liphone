@@ -82,7 +82,7 @@ const TukarTambah = () => {
                 <li>Jangan percaya jika ada yang mengaku admin meminta transfer ke rekening pribadi.</li>
                 <li>Selalu konfirmasi nomor rekening dan proses hanya melalui kontak resmi di website ini.</li>
                 <li>Jangan berikan kode OTP atau data pribadi ke siapapun.</li>
-                <li>Jika ragu, hubungi admin resmi melalui WhatsApp yang tertera di website.</li>
+                <li>Jika ragu, hubungi admin resmi melalui WhatsApp yang tertera di website</li>
               </ul>
             </div>
           </div>
