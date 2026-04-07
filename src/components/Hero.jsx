@@ -21,7 +21,7 @@ const Hero = ({ onCalculate }) => {
           <div className="text-white space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <span className="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-200 rounded-full text-sm font-semibold border border-blue-500/30 backdrop-blur-sm">
-                Platform Jual Beli HP Iphone
+                Platform Jual Beli HP Iphone dan Android
               </span>
               <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight tracking-tight">
                 Jual IPhone <br/>

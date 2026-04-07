@@ -51,6 +51,7 @@ const Navbar = ({ isAdmin }) => {
             <Link to="/beli-hp" className={`${isActive('/beli-hp')} transition-colors`}>Beli HP</Link>
             <Link to="/aksesoris" className={`${isActive('/aksesoris')} transition-colors`}>Beli Aksesoris</Link>
             <Link to="/contact" className={`${isActive('/contact')} transition-colors`}>Hubungi Kami</Link>
+            <Link to="/tukar-tambah" className={`${isActive('/tukar-tambah')} transition-colors`}>Tukar Tambah </Link>
           </div>
 
           {/* Icons */}
