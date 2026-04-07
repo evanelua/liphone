@@ -13,6 +13,7 @@ import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
+import TukarTambah from './pages/tukar-tambah';
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -62,6 +63,7 @@ function App() {
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/login" element={<Login onLogin={() => setIsAdmin(true)} />} />
                 <Route path="/admin" element={<AdminDashboard isAdmin={isAdmin} onLogout={handleLogout} />} />
+                <Route path="/tukar-tambah" element={<TukarTambah />} />
             </Routes>
             
             <Footer />
